@@ -1,0 +1,30 @@
+Object,Details,Quantity,Unit Price,Subtotal,Supplier
+Electronics,,,,,
+Raspberry Pi 3B+,,1,€48.00,€48.00,Mike
+Arduino Uno,,1,€0.00,€0.00,Pre-owned
+Camera,,1,€28.00,€28.00,Amazon
+Stepper Motor - Nema 17,,2,€12.78,€25.56,Thingibox.com
+Stepper Motor - Nema 17 with Thread,,1,€34.85,€34.85,Thingibox.com
+Stepper Drivers,A4988 Stepper Motor Driver,3,€4.00,€12.00,Amazon
+LCD Screen,,1,€35.00,€35.00,Amazon
+Mechanical,,,,,
+Bolts,M2x15,4,-,€10.00,Ferreteria Bonet S.L
+,M3x15,4,-,,
+,M3x25,8,-,,
+,M3x30,2,-,,
+,M4x15,10,-,,
+,M4x20,10,-,,
+Nuts,M3,30,-,,
+,M4,30,-,,
+Bearings,"ID = 10 , OD = 26, T = 10",2,€10.00,€20.00,Alaball Suministros Industriales S.L
+,"ID = 50, OD = 65, T = 10",2,€15.00,€30.00,123rodamiento.es
+Linear Bearings,,2,€5.00,€10.00,Amazon
+Rod Holders,,4,€1.72,€6.89,Amazon
+Thread Bearings and Internal Thread,,1,€12.49,€12.49,Amazon
+Raw Material,,,,,
+MDF - Laminated 10mm (800x600mm),,1,€10.00,€10.00,Servei Estacio
+Steel Rod D=10mm (1m),,1,€10.00,€12.41,Thingibox.com
+3D Printing,,,,,
+,,,,,
+,,,,,
+Total,,,,€243.41,
