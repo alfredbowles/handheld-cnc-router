@@ -35,7 +35,7 @@ The router will be hand-guided by the user while motors which control the positi
 
 The user would either print or draw the desired pattern to be routed onto the piece of material. He would then activate the router and pass it over the material approximately following the printed path. The mounted camera which is aimed at the region around the bit tip will calculate the deviation needed to be made to account and correct for the user error and order the motors to move the mill head to the calculated point. As the user progresses through the material only the black areas which were printed or drawn will be removed and the piece would be complete.
 
-# Control
+# Control & Instructions
 
 Since we are using a double cam mechanism we need to calculate how the bit would move with respect to the given motor rotations. In order to calculate the bit deviation, we use trigonometry and the law of cosines and sines.
 
