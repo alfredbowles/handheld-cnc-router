@@ -39,17 +39,21 @@ The user would either print or draw the desired pattern to be routed onto the pi
 
 Since we are using a double cam mechanism we need to calculate how the bit would move with respect to the given motor rotations. In order to calculate the bit deviation, we use trigonometry and the law of cosines and sines.
 
+### Angle Calculation ###
 This code attempts to solve for those angles. (Angle calculation still to be optimized):
 * Final_motion_calculation.py
 
 The variables defined in the code are shown in the below diagram:
 ![WhiteKinematics](https://user-images.githubusercontent.com/61389567/161617604-2ef2f1a4-26f8-41f6-8471-3f9bb0f43054.png)
 
-Adruino Motor control code:
-	The code to convert the desired angles to microsteps and control the motors according to those steps
+### Adruino Motor control code ###
+The file to convert the desired angles to microsteps and control the motors according to those steps
 * Arduino_Motor_Control.ino
 
-* Camera Calibration & Homography:
-	* Homgraphy_Calibration.py
-* Main:
-	* LineTracking.py 
+### Camera Calibration & Homography: ###
+This file is run only once at the beginning in order to calibrate the camera and account for the exact distance and orientation of the camera with respect to the bit
+* Homgraphy_Calibration.py
+
+### Main Code - Line Tracking ###
+The following file is used to detect object contours, calculate their centroids and fine the distance and angle between the camera center and the object center. These numbers are then outputted to the Final_motion_calculation.py file which then finds the desired motor angles.
+* LineTracking.py 
