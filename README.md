@@ -1,6 +1,6 @@
 # Handheld CNC Router - Frebujar
 
-The handheld CNC router is a project developed for a 2 month hardware seminar at the Institute for Advanced Architecture of Catalonia
+The handheld CNC router is a project developed by Alfred Bowles, Shamanth Thenkan & Vincent Verster for a 2 month hardware seminar at the Institute for Advanced Architecture of Catalonia
 
 The project aim is to develop a handheld CNC router which could be used for milling and inscribing into planar msheets of material.
 The router will be hand-guided by the user while motors which control the position of the mill bit will activate to correct for the error made by the user between the actual and target position of the bit.
