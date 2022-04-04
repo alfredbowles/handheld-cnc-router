@@ -1,3 +1,6 @@
+# The following code is used to control the 3 Nema-17 stepper motors
+# This code runs on the arduino uno and receives angles as strings through serial communication from the Raspberry Pi and converts them to microsteps to control the motors.
+
 #define dirPin1 3
 #define stepPin1 2
 #define dirPin2 5
