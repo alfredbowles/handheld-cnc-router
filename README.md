@@ -7,6 +7,9 @@ The router will be hand-guided by the user while motors which control the positi
 
 # Hardware & Materials #
 
+All part drawings, milling files, and lasercutting files are found in the 'Manufacturing' dirctory.
+BOM is found in the hardware folder
+
 ### Complete Assembly ###
 * 4x Milled - Particle board, laminated on both sides : Thickness = 10mm
 * 3x Lasercut - Plexiglass : Thickness = 6mm
