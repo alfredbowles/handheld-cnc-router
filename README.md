@@ -37,8 +37,18 @@ The user would either print or draw the desired pattern to be routed onto the pi
 
 # Control
 
-* Adruino Motor control code:
-	* Arduino_Motor_Control.ino
+Since we are using a double cam mechanism we need to calculate how the bit would move with respect to the given motor rotations. In order to calculate the bit deviation, we use trigonometry and the law of cosines and sines.
+
+This code attempts to solve for those angles. (Angle calculation still to be optimized):
+* Final_motion_calculation.py
+
+The variables defined in the code are shown in the below diagram:
+![WhiteKinematics](https://user-images.githubusercontent.com/61389567/161617604-2ef2f1a4-26f8-41f6-8471-3f9bb0f43054.png)
+
+Adruino Motor control code:
+	The code to convert the desired angles to microsteps and control the motors according to those steps
+* Arduino_Motor_Control.ino
+
 * Camera Calibration & Homography:
 	* Homgraphy_Calibration.py
 * Main:
